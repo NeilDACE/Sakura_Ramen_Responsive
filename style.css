@@ -261,6 +261,7 @@
      background-color: #0a141e;
      display: flex;
      justify-content: space-between;
+     align-items: center;
      margin-bottom: 0;
      padding-top: 40px;
      padding-bottom: 40px;
@@ -273,15 +274,112 @@
      .hide_nav {
          display: none;
      }
-     .media_side_spacing {
-        padding-left: 24px;
-        padding-right: 24px;
-     }
-     .my_body {
-        font-size: 20px;
-     }
-     h1 {
-        font-size: 72px;
+
+     .media_side_spacing_padding {
+         padding-left: 24px;
+         padding-right: 24px;
      }
 
- }
+     .media_side_spacing_margin {
+         margin-left: 24px;
+         margin-right: 24px;
+     }
+
+     .my_body {
+         font-size: 20px;
+
+
+     }
+
+     h1 {
+         font-size: 72px;
+     }
+
+     body::-webkit-scrollbar {
+         display: none;
+     }
+
+     body {
+         overflow-x: hidden;
+         /* Verhindert horizontales Scrollen */
+         scrollbar-width: none;
+         /* Versteckt die Scrollbar in Firefox */
+     }
+
+     /* Versteckt die Scrollbar in IE und älteren Edge-Versionen */
+     body {
+         -ms-overflow-style: none;
+     }
+
+     h2 {
+         padding-top: 96px;
+         font-size: 64px;
+     }
+
+     .how_to_order_container {
+         margin-top: 48px;
+     }
+
+     .icons_size {
+         width: 112px;
+         margin-bottom: 8px;
+     }
+
+     h3 {
+         font-size: 32px;
+     }
+
+     .our_menu {
+         margin-top: 96px;
+     }
+
+     .section_1 {
+         margin-top: 48px;
+         justify-content: space-between;
+     }
+
+     .section_2 {
+         margin-top: 32px;
+         justify-content: space-between;
+     }
+
+     .section_3 {
+         margin-top: 32px;
+         justify-content: space-between;
+         padding-bottom: 96px;
+     }
+
+     .table {
+         font-size: 24px;
+     }
+
+     .meal_1_description {
+         margin-left: 24px;
+     }
+
+     tr td:first-child {
+         padding-right: 134px;
+     }
+
+     .meal_2_description {
+         margin-right: 24px;
+     }
+
+     .meal_3_description {
+         margin-left: 24px;
+     }
+     .adress {
+        padding-bottom: 48px;
+     }
+     .sr_logo {
+        margin-left: 24px;
+     }
+     .container_right {
+        margin-right: 24px;
+     }
+     .footer {
+        padding-top: 41.6px;
+        padding-bottom: 41.6px;
+        margin-top: 0;
+     }
+    }
