@@ -368,18 +368,138 @@
      .meal_3_description {
          margin-left: 24px;
      }
+
      .adress {
-        padding-bottom: 48px;
+         padding-bottom: 48px;
      }
+
      .sr_logo {
-        margin-left: 24px;
+         margin-left: 24px;
+     }
+
+     .container_right {
+         margin-right: 24px;
+     }
+
+     .footer {
+         padding-top: 41.6px;
+         padding-bottom: 41.6px;
+         margin-top: 0;
+     }
+ }
+
+ @media(max-width:767px) {
+     .hide_nav {
+         display: none;
+     }
+
+     .media_side_spacing_padding {
+         padding-left: 16px;
+         padding-right: 16px;
+     }
+
+     .media_side_spacing_margin {
+         margin-left: 16px;
+         margin-right: 16px;
+     }
+
+     .my_body {
+         font-size: 16px;
+     }
+
+     h1 {
+         font-size: 44px;
+         text-align: center;
+     }
+
+     .logo_img {
+         height: 40px;
+         width: 40px;
+     }
+
+     .headline {
+         height: 64px;
+     }
+
+     h2 {
+         padding-top: 72px;
+         font-size: 40px;
+         text-align: center;
+     }
+
+     .how_to_order_container {
+         flex-direction: column;
+         gap: 32px;
+     }
+
+     .our_menu {
+         margin-top: 72px;
+     }
+
+     .menu_picture {
+         width: 272.8px;
+         height: 272.8px;
+     }
+
+     .table {
+         margin-top: 8px;
+     }
+
+     tr td:first-child {
+         padding-right: 80px;
+     }
+
+     .section_1 {
+         flex-direction: column;
+     }
+
+     .meal_1_description {
+         padding-top: 16px;
+         margin-left: 0;
+     }
+
+     .section_2 {
+         flex-direction: column;
+     }
+
+     .meal_2_description {
+         padding-top: 16px;
+         margin-right: 0;
+     }
+
+     .section_3 {
+         flex-direction: column;
+         padding-bottom: 72px;
+     }
+
+     .meal_3_description {
+         padding-top: 24px;
+         margin-left: 0;
+     }
+
+     .adress {
+         text-align: center;
+         padding-bottom: 40px;
+     }
+
+     .sr_logo {
+         content: url(./img/1_hero/PNG/sakura_logo.png);
+         margin-left: 16px;
+         height: 40px;
      }
      .container_right {
-        margin-right: 24px;
+        margin-right: 16px;
+     }
+
+     .logo_footer {
+         width: 32px;
+         height: 32px;
      }
      .footer {
-        padding-top: 41.6px;
-        padding-bottom: 41.6px;
-        margin-top: 0;
+        padding-top: 17px;
+        padding-bottom: 17px;
      }
-    }
+
+
+
+ }
