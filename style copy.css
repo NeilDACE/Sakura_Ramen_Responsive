@@ -1,11 +1,15 @@
- #mybody {
+ #my_body {
      margin: 0;
      font-family: "Raleway", sans-serif;
      font-size: 24px;
 
  }
 
- .firstpage {
+ html {
+     scroll-behavior: smooth;
+ }
+
+ .first_page {
      height: 100vh;
      background-image: url(./img/1_hero/JPG/hero_bg.jpg);
      background-size: cover;
@@ -16,7 +20,7 @@
      flex-direction: column;
  }
 
- #firstmessage {
+ #first_message {
      color: white;
  }
 
@@ -40,13 +44,13 @@
 
  }
 
- .menulink {
+ .menu_link {
      color: white;
      text-decoration: none;
      margin-left: 32px;
  }
 
- .menulink:hover {
+ .menu_link:hover {
      color: orange;
      text-decoration: underline;
  }
@@ -74,7 +78,7 @@
      margin-right: 8px;
  }
 
- .logoimg {
+ .logo_img {
      width: 64px;
      height: 64px;
  }
@@ -111,12 +115,12 @@
      margin-bottom: 0;
  }
 
- .howtoorder {
+ .how_to_order {
      display: flex;
      flex-direction: column;
  }
 
- .howtoordercontainer {
+ .how_to_order_container {
      display: flex;
      justify-content: space-between;
      margin-top: 64px;
@@ -124,30 +128,31 @@
      margin-right: 160px;
  }
 
- .iconscontainer {
+ .icons_container {
      display: flex;
+     text-align: center;
      flex-direction: column;
      align-items: center;
 
  }
 
- .iconssize {
+ .icons_size {
      width: 128px;
      margin-bottom: 16px;
  }
 
- .ourmenu {
+ .our_menu {
      margin-top: 120px;
      background-image: url(./img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
      background-size: cover;
  }
 
- .ourmenucontainer {
+ .our_menu_container {
      margin-left: 160px;
      margin-right: 160px;
  }
 
- .section1 {
+ .section_1 {
      margin-top: 64px;
      display: flex;
      justify-content: flex-start;
@@ -155,7 +160,7 @@
 
  }
 
- .section2 {
+ .section_2 {
      margin-top: 56px;
      display: flex;
      justify-content: flex-start;
@@ -164,7 +169,7 @@
 
  }
 
- .section3 {
+ .section_3 {
      margin-top: 56px;
      padding-bottom: 120px;
      display: flex;
@@ -172,7 +177,7 @@
      align-items: center;
  }
 
- .menupicture {
+ .menu_picture {
      width: 352px;
      height: 352px;
  }
@@ -193,15 +198,15 @@
      margin-bottom: 8px;
  }
 
- .meal1description {
+ .meal_1_description {
      margin-left: 80px;
  }
 
- .meal2description {
+ .meal_2_description {
      margin-right: 80px;
  }
 
- .meal3description {
+ .meal_3_description {
      margin-left: 80px;
  }
 
@@ -210,7 +215,7 @@
      padding-right: 200px;
  }
 
- .findusat {
+ .find_us_at {
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -235,18 +240,18 @@
 
  }
 
- .srlogo {
+ .sr_logo {
      height: 44px;
      margin-left: 160px;
  }
 
- .logofooter {
+ .logo_footer {
      width: 40px;
      height: 40px;
      padding: 8px;
  }
 
- .containerright {
+ .container_right {
      margin-right: 160px;
      display: flex;
      justify-content: space-evenly;
