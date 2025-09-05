@@ -1,4 +1,4 @@
- #my_body {
+ .my_body {
      margin: 0;
      font-family: "Raleway", sans-serif;
      font-size: 24px;
@@ -265,4 +265,23 @@
      padding-top: 40px;
      padding-bottom: 40px;
      margin-top: 8px;
+ }
+
+
+
+ @media(max-width:1280px) {
+     .hide_nav {
+         display: none;
+     }
+     .media_side_spacing {
+        padding-left: 24px;
+        padding-right: 24px;
+     }
+     .my_body {
+        font-size: 20px;
+     }
+     h1 {
+        font-size: 72px;
+     }
+
  }
