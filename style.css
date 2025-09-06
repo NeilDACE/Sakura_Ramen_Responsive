@@ -298,6 +298,7 @@
      body::-webkit-scrollbar {
          display: none;
      }
+     /* Verhindert und versteckt die Scrollbar in Chrome */
 
      body {
          overflow-x: hidden;
@@ -306,10 +307,10 @@
          /* Versteckt die Scrollbar in Firefox */
      }
 
-     /* Versteckt die Scrollbar in IE und älteren Edge-Versionen */
      body {
          -ms-overflow-style: none;
      }
+     /* Versteckt die Scrollbar in IE und älteren Edge-Versionen */
 
      h2 {
          padding-top: 96px;
@@ -487,19 +488,19 @@
          margin-left: 16px;
          height: 40px;
      }
+
      .container_right {
-        margin-right: 16px;
+         margin-right: 16px;
      }
 
      .logo_footer {
          width: 32px;
          height: 32px;
      }
+
      .footer {
-        padding-top: 17px;
-        padding-bottom: 17px;
+         padding-top: 17px;
+         padding-bottom: 17px;
      }
 
-
-
- }
+    }
